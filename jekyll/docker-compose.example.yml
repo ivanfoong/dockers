@@ -1,0 +1,7 @@
+jekyll:
+  image: ivanfoong/jekyll
+  restart: always
+  volumes:
+  - ./src:/home/jekyll/source
+  ports:
+  - 80:4000
